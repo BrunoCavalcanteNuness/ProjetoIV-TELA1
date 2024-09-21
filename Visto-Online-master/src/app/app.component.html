@@ -1,0 +1,110 @@
+<style>
+  body {
+    margin: 0;
+    background-color:#1B4332;
+
+
+  }
+
+  .titulo{
+   font-family: sans-serif;
+   color: white;
+   font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .paragrafo {
+    font-family: sans-serif;
+    color:  #9CCE9F;
+    font-size: 30px;
+
+  }
+
+
+  .Login-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.centro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1B4332;
+}
+
+
+
+
+.Login-Container input[type = "text"],
+.Login-Container input[type = "password"]{
+
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+  .btn-entrar{
+    background:  #9CCE9F;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #1B4332;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+  }
+
+  .btn-entrar:hover{
+    padding: 15px;
+    width: 450px;
+    border-radius: 8px;
+    font-size: 13px;
+
+  }
+
+
+
+
+</style>
+
+
+
+
+<Body>
+
+  <section class="centro">
+    <h1 class="titulo"> Tirolli </h1>
+    <p class="paragrafo"> Visto online </p>
+
+
+
+  <div class="Login-Container">
+
+
+
+    <input type="text" name="Usuario" placeholder="Numero-RM" required>
+    <input type="password" name="Senha" placeholder="Senha" required>
+
+    <button class="btn-entrar"> Entrar </button>
+  </div>
+  </section>
+</Body>
+
